@@ -18,6 +18,11 @@
 	padding: 0;
 }
 
+html {
+	overflow-x: hidden;
+	margin-right: calc(-1 * (100vw - 100%));
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
@@ -526,7 +531,7 @@ table th {
 	padding: 0.7rem 2rem;
 	z-index: 1;
 	width: 100%;
-	opacity: 0.9;
+	/* opacity: 0.9; */
 	margin-bottom: 1rem;
 }
 
