@@ -24,7 +24,6 @@ const User = ({ match }) => {
 		following,
 		public_repos,
 		public_gists,
-		hireable,
 		company,
 	} = user;
 
@@ -84,14 +83,6 @@ const User = ({ match }) => {
 										{blog}
 									</a>
 								</Fragment>
-							)}
-						</li>
-						<li>
-							<strong>Hireable: </strong>{' '}
-							{hireable ? (
-								<i className='fas fa-check text-success' />
-							) : (
-								<i className='fas fa-times-circle text-danger' />
 							)}
 						</li>
 					</ul>
