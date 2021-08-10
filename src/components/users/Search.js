@@ -43,7 +43,6 @@ const Search = () => {
 					<i class='fas fa-search'></i>
 				</button>
 			</form>
-
 			{githubContext.users.length > 0 && (
 				<button
 					className='btn btn-light btn-block'

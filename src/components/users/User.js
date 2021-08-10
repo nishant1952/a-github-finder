@@ -54,7 +54,12 @@ const User = ({ match }) => {
 							<h4>{bio}</h4>
 						</Fragment>
 					)}
-					<a href={html_url} className='btn my-1'>
+					<a
+						href={html_url}
+						target='_blank'
+						rel='noreferrer noopener'
+						className='btn my-1'
+					>
 						Visit Github Profile
 					</a>
 					<ul>
@@ -79,7 +84,12 @@ const User = ({ match }) => {
 								<Fragment>
 									<strong>Website: </strong>
 
-									<a href={blog} className='underline'>
+									<a
+										href={blog}
+										target='_blank'
+										rel='noreferrer noopener'
+										className='underline'
+									>
 										{blog}
 									</a>
 								</Fragment>
