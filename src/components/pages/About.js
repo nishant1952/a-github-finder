@@ -13,7 +13,7 @@ export const About = () => {
 					Source Code hosted on -{' '}
 					<a href='https://github.com/nishant1952' className='underline'>
 						{' '}
-						<i className='fab fa-github'> Github </i>
+						<i className='fab fa-github' /> Github
 					</a>
 				</h3>
 			</div>
