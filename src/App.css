@@ -152,13 +152,13 @@ search form field
 	display: block;
 	transition: 0.2s;
 	font-size: 1rem;
-	color: #9b9b9b;
+	color: #fff;
 }
 .form__field:focus {
 	padding-bottom: 6px;
 	font-weight: 700;
 	border-width: 3px;
-	border-image: linear-gradient(to right, #11998e, #38ef7d);
+	border-color: #fff;
 	border-image-slice: 1;
 }
 .form__field:focus ~ .form__label {
@@ -167,7 +167,7 @@ search form field
 	display: block;
 	transition: 0.2s;
 	font-size: 1rem;
-	color: #11998e;
+	color: #fff;
 	font-weight: 700;
 }
 /* reset input */
